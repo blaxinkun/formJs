@@ -1,5 +1,5 @@
 .box{
-    width: 250px;
+    width: 200;
     float: left;
     height: 250px;
     margin: 20px;
@@ -7,5 +7,17 @@
 
 .dashed{
 
-    border: 3px dashed black;
+    border-collapse: initial;
+    background-color: gray;
+    color: honeydew;
+}
+
+.button{
+    display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
 }
