@@ -1,23 +1,74 @@
-.box{
+/* .box{
     width: 200;
     float: left;
     height: 250px;
     margin: 20px;
-}
+} */
 
 .dashed{
 
-    border-collapse: initial;
-    background-color: gray;
-    color: honeydew;
+    padding: 60px;
+    max-width: 400px;
+    background-color: #f8befa;
+    margin: 0 auto;
 }
 
 .button{
     display: block;
-	background-color: #0095eb;
+	background-color: #bb0770;
 	padding: 10px 45px 10px 45px;
 	border: 0;
 	font-size: 1em; 
 	color: 	white;
   font-family: "Roboto", sans-serif;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+form{
+    padding: 60px;
+    max-width: 400px;
+    background-color: #f8befa;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea{
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: horizontal; 
+  }
+
+ 
+
+   button :hover{
+	background-color: #046193;
+}
+
+.image_container{
+    background: url('https://i.pinimg.com/originals/23/64/f1/2364f15fe455d7a5f321ee22430a190c.jpg');
+}
+
+.tittle{
+    text-align: center;
+    color: rgb(87, 3, 59);
+}
+
+.answer{
+    text-align: center;
+}
+
+h3.{
+    text-align: center;
 }
