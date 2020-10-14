@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="form.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Formularios DOM</h1>
+    <div class="box">
+        <form action="#" method="POST" id="form" onsubmit="return false">
+
+            <label for="name">Nombre</label><br>
+            <input type="text" name="name" id="name"><br>
+            
+    
+            <label for="surname">Apellidos</label><br>
+            <input type="text" name="surname" id="surname"><br>
+            
+    
+            <label for="age">Edad</label><br>
+            <input type="number" name="age" id="age"><br>
+    
+            <input type="submit" value="Enviar" id="submit">
+            
+        </form>
+    
+    </div>
+    <div class="box dashed">
+
+        <h3>Información User</h3>
+        <hr>
+        <p id="p_name">
+            Nombre: <span></span>
+        </p>
+        <p id="p_surname">
+            Apellidos: <span></span>
+        </p>
+        <p id="p_age">
+            Edad: <span></span>
+        </p>
+
+
+    
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+    <script type="text/javascript"  src="form.js"></script>
+    
+</body>
+</html>
